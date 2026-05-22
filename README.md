@@ -104,8 +104,8 @@ ai_brain = NeuralNet()
 criterion = nn.MSELoss()
 optimizer = optim.RMSprop(ai_brain.parameters(),lr=0.001)
 
-# Name: AJITH A
-# Register Number: 212224230012
+# Name: MAGESHWARAN T.A
+# Register Number: 212224230146
 def train_model(ai_brain, X_train, y_train, criterion, optimizer, epochs=2000):
     for epoch in range(epochs):
         optimizer.zero_grad()
